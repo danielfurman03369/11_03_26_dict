@@ -165,3 +165,59 @@
 #     return di
 #
 # print(group_by_letter(l1))
+
+################################################################
+
+# def cool_tri():
+#     a = int(input('pls enter number: '))
+#     for i in range(1,a+1):
+#         for j in range(1,i+1):
+#             print(j,end=" ")
+#         print()
+#     for i in range(a,0,-1):
+#         for j in range(1,i):
+#             print(j,end=" ")
+#         print()
+# cool_tri()
+##############################################################
+# number = int(input("enter a number between 1 and 9: "))
+# number_1 = []
+# for num in range(1, number + 1):
+#     number_1.append(num)
+#     print(number_1)
+# for _ in range(number-1):
+#     number_1.pop()
+#     print(number_1)
+# #########################################################
+# a = int(input('Enter a number: '))
+# b = str(a)
+# print(b[::-1])
+# b = list(b)
+# print(max(b))
+# print(min(b))
+# c = []
+# for x in b:
+#     d = int(x)
+#     c.append(d)
+# print(sum(c))
+# print(sum(c)/len(c))
+###############################################################
+# def is_list_sorted():
+#     lst = []
+#     while True:
+#         a = int(input('Enter a number: '))
+#         if a == -999:
+#             break
+#         else:
+#             lst.append(a)
+#             continue
+#
+#     lst2 = sorted(lst.copy())
+#     print(lst2 == lst)
+# is_list_sorted()
+##################################################################
+# nums = [3, 1, 3, 2, 1, 3]
+# d = {}
+# for n in nums:
+#     d[n] = d.get(n,0) + 1
+# print(d)
